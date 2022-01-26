@@ -1,0 +1,35 @@
+{
+    "name": "ianm/same-page-admin",
+    "description": "Open the Administration settings in the same tab",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "IanM",
+            "email": "ian@blomstra.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IanM\\SamePageAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Same Page Admin",
+            "category": "feature",
+            "icon": {
+                "name": "far fa-file",
+                "backgroundColor": "#0072e3",
+                "color": "#fff"
+            }
+        }
+    }
+}
