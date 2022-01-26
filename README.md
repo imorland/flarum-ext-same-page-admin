@@ -15,13 +15,11 @@ composer require ianm/same-page-admin:"*"
 ## Updating
 
 ```sh
-composer update ianm/same-page-admin:"*"
-php flarum migrate
+composer update ianm/same-page-admin
 php flarum cache:clear
 ```
 
 ## Links
 
 - [Packagist](https://packagist.org/packages/ianm/same-page-admin)
-- [GitHub](https://github.com/ianm/same-page-admin)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [GitHub](https://github.com/imorland/flarum-ext-same-page-admin)
